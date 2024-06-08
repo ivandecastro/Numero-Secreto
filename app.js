@@ -1,5 +1,5 @@
 let chosenNumbers = [];
-let limitNumber = 50;
+let limitNumber = 100;
 let secretNumber = generateRandomNumber();
 let tries = 1;
 console.log (secretNumber);
@@ -12,7 +12,7 @@ function showText(tag, text) {
 
 function firstMenssage() {
     showText('h1', 'Secret Number Game');
-    showText('p', 'chose a number between 1 and 50');
+    showText('p', 'chose a number between 1 and 100');
 }
 
 firstMenssage();
